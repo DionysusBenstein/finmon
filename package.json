@@ -5,9 +5,9 @@
   "main": "index.js",  
   "scripts": {
     "build": "tsc",
-    "start": "node -r dotenv/config dist/src .",
+    "start": "node -r dotenv/config dist/ .",
     "dev:build": "tsc --watch",
-    "dev:start": "nodemon -r dotenv/config dist/src .",
+    "dev:start": "nodemon -r dotenv/config dist/ .",
     "dev": "npm-run-all --parallel dev:*"
   },
   "keywords": [],
